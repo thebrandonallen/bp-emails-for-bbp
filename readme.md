@@ -1,0 +1,43 @@
+# BP Emails for BBP #
+**Contributors:** thebrandonallen  
+**Donate link:** http://brandonallen.me/donate/  
+**Tags:** bbpress, buddypress, email  
+**Requires at least:** 4.0.0  
+**Tested up to:** 4.5.2  
+**Stable tag:** 0.1.0  
+**License:** GPLv2 or later  
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+
+Send bbPress forum and topic subscription emails using Buddypress' email API.
+
+## Description ##
+
+>This plugin requires both bbPress 2.5+ and BuddyPress 2.5+.
+
+Send bbPress forum and topic subscription emails using Buddypress' email API. Now you have pretty, customizable, HTML emails for your forums.
+
+## Installation ##
+
+Through the Dashboard.
+
+1. In your Dashboard go to Plugins > Add New.
+1. Search for `bp-emails-for-bbp`.
+1. Click "Install."
+1. Activate the plugin.
+
+Manually.
+
+1. Download the plugin and unzip.
+1. Upload the `bp-emails-for-bbp` directory to the `/wp-content/plugins/` directory.
+1. Activate the BP Emails for BBP through the 'Plugins' menu in WordPress
+
+## Frequently Asked Questions ##
+
+### Where can I find the settings? ###
+
+Settings? We don't need no stinking settings.
+
+## Changelog ##
+
+### 0.1.0 ###
+* Initial release.
