@@ -50,7 +50,8 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 			load_plugin_textdomain( 'bp-emails-for-bbp', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 
 			// Bail early if dependencies aren't met.
-			if ( ! empty( $this->check_for_errors() ) ) {
+			$errors = $this->check_for_errors();
+			if ( ! empty( $errors ) ) {
 				return add_action( 'admin_notices', array( $this, 'admin_notices' ) );
 			}
 
@@ -422,7 +423,9 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 
 			// Bail if errors exist on installation.
 			if ( 'activate_' . plugin_basename( __FILE__ ) === current_filter() ) {
-				if ( ! empty( $this->check_for_errors() ) ) {
+
+				$errors = $this->check_for_errors();
+				if ( ! empty( $errors ) ) {
 					return;
 				}
 			}
