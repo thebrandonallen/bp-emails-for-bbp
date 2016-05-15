@@ -16,6 +16,8 @@ Send bbPress forum and topic subscription emails using Buddypress' email API.
 
 Send bbPress forum and topic subscription emails using Buddypress' email API. Now you have pretty, customizable, HTML emails for your forums.
 
+Note that BP Emails for BBP sends emails differently than bbPress. bbPress places every subscriber email in the BCC field, and sends one email. BP Emails for BBP, asynchronously, sends one email per subscriber. This may help improve email deliverability if you have forums or topics with a large number of subscribers. Email providers don't always look favorably on emails with large BCC fields. At the very least, this should improve page load time when posting a new topic or reply.
+
 ## Installation ##
 
 Through the Dashboard.
