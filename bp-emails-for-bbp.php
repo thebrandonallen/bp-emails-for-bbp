@@ -206,6 +206,7 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 
 			// Dedicated filter to manipulate user ID's to send emails to.
 			$user_ids = (array) apply_filters( 'bbp_forum_subscription_user_ids', $user_ids );
+			$user_ids = array_filter( array_map( 'intval', $user_ids ) );
 			if ( empty( $user_ids ) ) {
 				return false;
 			}
@@ -217,8 +218,8 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 			}
 
 			// Remove the topic author from the user id list.
-			$key = array_search( $topic_author, $user_ids );
-			if ( ! empty( $key ) ) {
+			$key = array_search( $topic_author, $user_ids, true );
+			if ( false !== $key ) {
 				unset( $user_ids[ $key ] );
 			}
 
@@ -309,6 +310,7 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 
 			// Dedicated filter to manipulate user ID's to send emails to.
 			$user_ids = (array) apply_filters( 'bbp_topic_subscription_user_ids', $user_ids );
+			$user_ids = array_filter( array_map( 'intval', $user_ids ) );
 			if ( empty( $user_ids ) ) {
 				return false;
 			}
@@ -320,8 +322,8 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 			}
 
 			// Remove the reply author from the user id list.
-			$key = array_search( $reply_author, $user_ids );
-			if ( ! empty( $key ) ) {
+			$key = array_search( $reply_author, $user_ids, true );
+			if ( false !== $key ) {
 				unset( $user_ids[ $key ] );
 			}
 
