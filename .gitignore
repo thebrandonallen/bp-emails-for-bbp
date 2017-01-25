@@ -1,0 +1,16 @@
+# gitignore file for BP Emails for BBP
+
+# Configuration files with possibly sensitive information
+.htaccess
+
+# Files and folders related to build/test tools
+/phpunit.xml
+/tests/phpunit/build
+/node_modules
+/npm-debug.log
+
+# BP Emails for BBP's output directory.
+/build
+
+# Operating system specific files
+.DS_Store
