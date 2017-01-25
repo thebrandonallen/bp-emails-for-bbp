@@ -86,12 +86,12 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 			add_action( 'bp_core_install_emails', array( $this, 'install_emails' ) );
 
 			// Load the forum notifications task, and remove the bbPress action.
-			new BPEBBP_Async_New_Topic_Email;
+			new BPEBBP_Async_New_Topic_Email();
 			remove_action( 'bbp_new_topic', 'bbp_notify_forum_subscribers', 11, 4 );
 			add_action( 'wp_async_bbp_new_topic', array( $this, 'notify_forum_subscribers' ), 10, 4 );
 
 			// Load the topic notifications task, and remove the bbPress action.
-			new BPEBBP_Async_New_Reply_Email;
+			new BPEBBP_Async_New_Reply_Email();
 			remove_action( 'bbp_new_reply', 'bbp_notify_subscribers', 11, 5 ); // Pre-2.5.6.
 			remove_action( 'bbp_new_reply', 'bbp_notify_topic_subscribers', 11, 5 );
 			add_action( 'wp_async_bbp_new_reply', array( $this, 'notify_topic_subscribers' ), 10, 5 );
@@ -568,5 +568,5 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 	}
 
 	// Initialize the BP Emails for BBP class.
-	new BP_Emails_For_BBP;
+	new BP_Emails_For_BBP();
 } // End class_exists check.
