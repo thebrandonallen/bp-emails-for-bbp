@@ -176,7 +176,7 @@ module.exports = function(grunt) {
 	// Build tasks.
 	grunt.registerTask( 'readme', [ 'wp_readme_to_markdown' ] );
 	grunt.registerTask( 'src',    [ 'string-replace:dev' ] );
-	grunt.registerTask( 'build',  [ 'clean:all', 'checktextdomain', 'string-replace:build', 'readme', 'uglify', 'makepot', 'copy:files' ] );
+	grunt.registerTask( 'build',  [ 'clean:all', 'checktextdomain', 'string-replace:build', 'readme', 'makepot', 'copy:files' ] );
 
 	// Register the default tasks.
 	grunt.registerTask('default', ['watch']);
