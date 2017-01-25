@@ -1,12 +1,12 @@
 # BP Emails for BBP #
-**Contributors:** thebrandonallen  
-**Donate link:** http://brandonallen.me/donate/  
+**Contributors:** [thebrandonallen](https://profiles.wordpress.org/thebrandonallen)  
+**Donate link:** https://brandonallen.me/donate/  
 **Tags:** bbpress, buddypress, email  
 **Requires at least:** 4.0.0  
-**Tested up to:** 4.5.2  
+**Tested up to:** 4.7.1  
 **Stable tag:** 0.1.1  
 **License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
 Send bbPress forum and topic subscription emails using Buddypress' email API.
 
