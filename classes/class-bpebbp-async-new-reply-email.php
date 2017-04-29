@@ -35,6 +35,8 @@ if ( class_exists( 'WP_Async_Task' ) ) {
 		protected $priority = 11;
 
 		/**
+		 * The action.
+		 *
 		 * @var string
 		 */
 		protected $action = 'bbp_new_reply';
@@ -87,4 +89,4 @@ if ( class_exists( 'WP_Async_Task' ) ) {
 			do_action( "wp_async_{$this->action}", $reply_id, $topic_id, $forum_id, $anonymous_data, $reply_author );
 		}
 	}
-}
+} // End if().

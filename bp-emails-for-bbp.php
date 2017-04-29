@@ -569,4 +569,4 @@ if ( ! class_exists( 'BP_Emails_For_BBP' ) ) {
 
 	// Initialize the BP Emails for BBP class.
 	new BP_Emails_For_BBP();
-} // End class_exists check.
+} // End if().
