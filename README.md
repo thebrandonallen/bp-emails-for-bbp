@@ -2,8 +2,8 @@
 **Contributors:** [thebrandonallen](https://profiles.wordpress.org/thebrandonallen)  
 **Donate link:** https://brandonallen.me/donate/  
 **Tags:** bbpress, buddypress, email  
-**Requires at least:** 4.0.0  
-**Tested up to:** 4.7.1  
+**Requires at least:** 4.2.0  
+**Tested up to:** 4.7.4  
 **Stable tag:** 0.1.1  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
