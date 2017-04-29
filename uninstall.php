@@ -19,6 +19,14 @@ defined( 'ABSPATH' ) || exit;
  */
 function bpebbp_uninstall() {
 
+
+	// Attempt to remove our database version.
+	if ( function_exists( 'bp_delete_option' ) ) {
+		bp_delete_option( '_bpebbp_db_version' );
+	} else {
+		delete_option( '_bpebbp_db_version' );
+	}
+
 	// We can't assume that BuddyPress is installed, but we should make every
 	// effort to get the correct taxonomy type.
 	$tax_type = apply_filters( 'bp_email_tax_type', 'bp-email-type' );
