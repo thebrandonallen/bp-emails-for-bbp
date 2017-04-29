@@ -149,6 +149,10 @@ module.exports = function(grunt) {
 				},
 				options: {
 					replacements: [{
+						pattern: /(const\sVERSION.*)'(.*)';/gm, // For plugin version variable
+						replacement: '$1\'<%= pkg.version %>\';'
+					},
+					{
 						pattern: /(\*\sVersion:\s+).*/gm, // For plugin header
 						replacement: '$1<%= pkg.version %>'
 					},
