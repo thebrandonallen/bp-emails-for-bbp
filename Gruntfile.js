@@ -159,6 +159,10 @@ module.exports = function(grunt) {
 					{
 						pattern: /(Stable tag:\s+).*/gm, // For readme.txt
 						replacement: '$1<%= pkg.version %>'
+					},
+					{
+						pattern: /(Copyright \(C\) 2016-)[0-9]{4}(.*)/gm, // For readme.txt
+						replacement: '$1<%= grunt.template.today("UTC:yyyy") %>$2'
 					}]
 				}
 			}
