@@ -41,8 +41,15 @@ Settings? We don't need no stinking settings.
 
 ## Changelog ##
 
+### 0.2.0 ###
+* Release date: April 29, 2017
+* Refactored loading of plugin code to be faster and leaner.
+* Refactored email installation.
+
 ### 0.1.1 ###
+* Release date: May 26, 2016
 * Fixes an issue where a topic or reply author might receive a notification of their own topic or reply if they're the first in the list of subscribers.
 
 ### 0.1.0 ###
+* Release date: May 12, 2016
 * Initial release.
