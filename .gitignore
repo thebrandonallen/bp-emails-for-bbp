@@ -4,6 +4,7 @@
 .htaccess
 
 # Files and folders related to build/test tools
+/phpcs.xml
 /phpunit.xml
 /tests/phpunit/build
 /node_modules
