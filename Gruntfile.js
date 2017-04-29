@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 		],
 
 		BPEBBP_EXCLUDED_MISC = [
-			'!**/assests/**',
+			'!**/assets/**',
 			'!**/bin/**',
 			'!**/build/**',
 			'!**/coverage/**',
