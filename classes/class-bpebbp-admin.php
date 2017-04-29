@@ -123,7 +123,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 			}
 
 			// Store the new database version.
-			bp_update_option( '_bpebbp_version', BP_Emails_For_BBP::DB_VERSION );
+			bp_update_option( '_bpebbp_db_version', BP_Emails_For_BBP::DB_VERSION );
 
 			/**
 			 * Fires after BP Emails for BBP adds the posts for its emails.
@@ -161,7 +161,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 
 			// If the install property is true, or if the version is higher.
 			if ( $this->install
-				|| ( BP_Emails_For_BBP::DB_VERSION >= (int) bp_get_option( '_bpebbp_version' ) ) ) {
+				|| ( BP_Emails_For_BBP::DB_VERSION >= (int) bp_get_option( '_bpebbp_db_version' ) ) ) {
 
 				$retval = true;
 			}
