@@ -41,6 +41,10 @@ Settings? We don't need no stinking settings.
 
 == Changelog ==
 
+= 0.2.1 =
+* Release date: April 30, 2017
+* Fix incorrect file path, causing sites to crash. Sorry :(
+
 = 0.2.0 =
 * Release date: April 29, 2017
 * Refactored loading of plugin code to be faster and leaner.
