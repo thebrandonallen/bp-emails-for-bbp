@@ -147,7 +147,7 @@ function bpebbp_load_admin() {
 		return;
 	}
 
-	require dirname( __FILE__ ) . '/class-bpebbp-admin.php';
+	require dirname( __FILE__ ) . '/classes/class-bpebbp-admin.php';
 	BPEBBP_Admin::get_instance();
 }
 
