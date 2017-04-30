@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/thebrandonallen
  * Text Domain:     bp-emails-for-bbp
  * Domain Path:     /languages
- * Version:         0.2.0
+ * Version:         0.2.1
  *
  * @package         BP_Emails_For_BBP
  */

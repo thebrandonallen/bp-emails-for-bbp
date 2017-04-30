@@ -15,7 +15,7 @@
   },
   "license": "GPL-2.0+",
   "name": "bp-emails-for-bbp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:thebrandonallen/bp-emails-for-bbp.git"
