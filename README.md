@@ -6,7 +6,7 @@
 **Tested up to:** 4.7.4  
 **Stable tag:** 0.2.1  
 **License:** GPLv2 or later  
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+**License URI:** https://www.gnu.org/licenses/old-licenses/gpl-2.0.html  
 
 Send bbPress forum and topic subscription emails using Buddypress' email API.
 
