@@ -1,6 +1,11 @@
 {
+  "name": "bp-emails-for-bbp",
+  "version": "0.2.1",
+  "main": "Gruntfile.js",
   "author": "Brandon Allen",
   "description": "Send bbPress forum and topic subscription emails using Buddypress' email API.",
+  "license": "GPL-2.0",
+  "repository": "github:thebrandonallen/bp-emails-for-bbp",
   "devDependencies": {
     "grunt": "~1.0.1",
     "grunt-checktextdomain": "~1.0.1",
@@ -12,12 +17,5 @@
     "grunt-wp-i18n": "~1.0.0",
     "grunt-wp-readme-to-markdown": "~2.0.1",
     "matchdep": "~1.0.1"
-  },
-  "license": "GPL-2.0+",
-  "name": "bp-emails-for-bbp",
-  "version": "0.2.1",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:thebrandonallen/bp-emails-for-bbp.git"
   }
 }
