@@ -1,6 +1,6 @@
 {
   "name": "bp-emails-for-bbp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "Gruntfile.js",
   "author": "Brandon Allen",
   "description": "Send bbPress forum and topic subscription emails using Buddypress' email API.",

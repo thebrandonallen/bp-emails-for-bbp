@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the BP Emails for BBP package.
 msgid ""
 msgstr ""
-"Project-Id-Version: BP Emails for BBP 0.2.1\n"
+"Project-Id-Version: BP Emails for BBP 0.2.2\n"
 "Report-Msgid-Bugs-To: https://github.com/thebrandonallen/bp-emails-for-bbp\n"
-"POT-Creation-Date: 2017-04-30 18:56:52+00:00\n"
+"POT-Creation-Date: 2017-06-15 06:28:28+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,15 +24,15 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n1.0.0\n"
 
-#: bp-emails-for-bbp.php:84
+#: bp-emails-for-bbp.php:80
 msgid "You must be using bbPress 2.5 or greater."
 msgstr ""
 
-#: bp-emails-for-bbp.php:89
+#: bp-emails-for-bbp.php:85
 msgid "You must be using BuddyPress 2.5 or greater."
 msgstr ""
 
-#: bp-emails-for-bbp.php:116
+#: bp-emails-for-bbp.php:112
 msgid ""
 "Yikes! Looks like some things aren't right. You should deactivate BP Emails "
 "for BBP, or fix the following issues."
