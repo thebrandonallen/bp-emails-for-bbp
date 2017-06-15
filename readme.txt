@@ -41,6 +41,10 @@ Settings? We don't need no stinking settings.
 
 == Changelog ==
 
+= 0.2.2 =
+* Release date: TBD
+* Update compatibility to WordPress 4.8
+
 = 0.2.1 =
 * Release date: 2017-04-30
 * Fix incorrect file path, causing sites to crash. Sorry :(
