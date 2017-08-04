@@ -153,6 +153,6 @@ function bpebbp_load_admin() {
  * @since 0.2.0
  */
 function bpebbp_load_textdomain() {
-	load_plugin_textdomain( 'bp-emails-for-bbp', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'bp-emails-for-bbp' );
 }
 add_action( 'init', 'bpebbp_load_textdomain' );
