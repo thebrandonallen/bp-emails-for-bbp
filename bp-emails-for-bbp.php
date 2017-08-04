@@ -40,6 +40,8 @@ defined( 'ABSPATH' ) || exit;
  */
 function bp_emails_for_bbp_loader() {
 
+	load_plugin_textdomain( 'bp-emails-for-bbp' );
+
 	// Check for compatible versions of BuddyPress and bbPress.
 	if ( bpebbp_compatability_check() ) {
 		add_action( 'admin_notices', 'bpebbp_admin_notices' );
@@ -146,13 +148,3 @@ function bpebbp_load_admin() {
 	require dirname( __FILE__ ) . '/classes/class-bpebbp-admin.php';
 	BPEBBP_Admin::get_instance();
 }
-
-/**
- * Load the text domain.
- *
- * @since 0.2.0
- */
-function bpebbp_load_textdomain() {
-	load_plugin_textdomain( 'bp-emails-for-bbp' );
-}
-add_action( 'init', 'bpebbp_load_textdomain' );
