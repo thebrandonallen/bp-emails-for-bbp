@@ -42,6 +42,10 @@ Settings? We don't need no stinking settings.
 
 ## Changelog ##
 
+### 0.2.3 ###
+* Release date: TBD
+* Update compatibility to 4.9.1
+
 ### 0.2.2 ###
 * Release date: 2017-06-15
 * Update compatibility to WordPress 4.8
