@@ -164,6 +164,10 @@ module.exports = function(grunt) {
 					{
 						pattern: /(Copyright\s\(C\)\s2016-)[0-9]{4}(.*)/gm, // For readme.txt
 						replacement: '$1<%= grunt.template.today("UTC:yyyy") %>$2'
+					},
+					{
+						pattern: /(\*\sRelease\sdate:\s)(TBD|TBA)$/gm,
+						replacement: '$1<%= grunt.template.today("yyyy-mm-dd") %>'
 					}]
 				}
 			}
