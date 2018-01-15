@@ -162,7 +162,7 @@ module.exports = function(grunt) {
 						replacement: '$1<%= pkg.version %>'
 					},
 					{
-						pattern: /(Copyright \(C\) 2016-)[0-9]{4}(.*)/gm, // For readme.txt
+						pattern: /(Copyright\s\(C\)\s2016-)[0-9]{4}(.*)/gm, // For readme.txt
 						replacement: '$1<%= grunt.template.today("UTC:yyyy") %>$2'
 					}]
 				}
