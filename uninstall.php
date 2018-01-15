@@ -19,7 +19,6 @@ defined( 'ABSPATH' ) || exit;
  */
 function bpebbp_uninstall() {
 
-
 	// Attempt to remove our database version.
 	if ( function_exists( 'bp_delete_option' ) ) {
 		bp_delete_option( '_bpebbp_db_version' );
@@ -40,7 +39,7 @@ function bpebbp_uninstall() {
 		if ( ! empty( $term['term_id'] ) ) {
 
 			// The situation exists, so check for attached emails.
-			$posts  = get_objects_in_term( $term['term_id'], $tax_type );
+			$posts = get_objects_in_term( $term['term_id'], $tax_type );
 
 			// Delete our emails, as they are no longer needed.
 			if ( ! is_wp_error( $posts ) && ! empty( $posts ) ) {

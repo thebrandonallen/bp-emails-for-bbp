@@ -80,17 +80,17 @@ if ( class_exists( 'WP_Async_Task' ) ) {
 		 */
 		protected function run_action() {
 			$topic_id       = ( isset( $_POST['topic_id'] ) && is_numeric( $_POST['topic_id'] ) )
-							  ? absint( $_POST['topic_id'] )
-							  : 0;
+				? absint( $_POST['topic_id'] )
+				: 0;
 			$forum_id       = ( isset( $_POST['forum_id'] ) && is_numeric( $_POST['forum_id'] ) )
-							  ? absint( $_POST['forum_id'] )
-							  : 0;
+				? absint( $_POST['forum_id'] )
+				: 0;
 			$anonymous_data = isset( $_POST['anonymous_data'] )
-							  ? (array) $_POST['anonymous_data']
-							  : array();
+				? (array) $_POST['anonymous_data']
+				: array();
 			$topic_author   = ( isset( $_POST['topic_author'] ) && is_numeric( $_POST['topic_author'] ) )
-							  ? absint( $_POST['topic_author'] )
-							  : 0;
+				? absint( $_POST['topic_author'] )
+				: 0;
 
 			do_action( "wp_async_{$this->action}", $topic_id, $forum_id, $anonymous_data, $topic_author );
 		}

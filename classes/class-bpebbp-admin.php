@@ -46,7 +46,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 		 */
 		public static function get_instance() {
 			if ( null === self::$instance ) {
-				self::$instance = new self;
+				self::$instance = new self();
 			}
 			return self::$instance;
 		}
@@ -89,7 +89,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 
 			$defaults = array(
 				'post_status' => 'publish',
-				'post_type' => bp_get_email_post_type(),
+				'post_type'   => bp_get_email_post_type(),
 			);
 
 			$emails       = $this->get_bp_email_schema();
@@ -180,7 +180,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 			return array(
 				'bpebbp-new-forum-topic' => array(
 					/* translators: do not remove {} brackets or translate its contents. */
-					'post_title' => __( '[{{{site.name}}}] {{topic.title}}', 'bp-emails-for-bbp' ),
+					'post_title'   => __( '[{{{site.name}}}] {{topic.title}}', 'bp-emails-for-bbp' ),
 					/* translators: do not remove {} brackets or translate its contents. */
 					'post_content' => __( "{{poster.name}} started a new topic <a href=\"{{topic.url}}\">{{topic.title}}</a> in the forum <a href=\"{{forum.url}}\">{{forum.title}}</a>:\n\n<blockquote>{{topic.content}}</blockquote>", 'bp-emails-for-bbp' ),
 					/* translators: do not remove {} brackets or translate its contents. */
@@ -188,7 +188,7 @@ if ( ! class_exists( 'BPEBBP_Admin' ) ) {
 				),
 				'bpebbp-new-forum-reply' => array(
 					/* translators: do not remove {} brackets or translate its contents. */
-					'post_title' => __( '[{{{site.name}}}] Re: {{topic.title}}', 'bp-emails-for-bbp' ),
+					'post_title'   => __( '[{{{site.name}}}] Re: {{topic.title}}', 'bp-emails-for-bbp' ),
 					/* translators: do not remove {} brackets or translate its contents. */
 					'post_content' => __( "{{poster.name}} replied to the topic <a href=\"{{topic.url}}\">{{topic.title}}</a> in the forum <a href=\"{{forum.url}}\">{{forum.title}}</a>:\n\n<blockquote>{{reply.content}}</blockquote>", 'bp-emails-for-bbp' ),
 					/* translators: do not remove {} brackets or translate its contents. */
