@@ -1,14 +1,14 @@
-# Copyright (C) 2016-2017 Brandon Allen
+# Copyright (C) 2016-2018 Brandon Allen
 # This file is distributed under the same license as the BP Emails for BBP package.
 msgid ""
 msgstr ""
-"Project-Id-Version: BP Emails for BBP 0.2.2\n"
+"Project-Id-Version: BP Emails for BBP 0.2.3\n"
 "Report-Msgid-Bugs-To: https://github.com/thebrandonallen/bp-emails-for-bbp\n"
-"POT-Creation-Date: 2017-06-15 06:28:28+00:00\n"
+"POT-Creation-Date: 2018-01-15 22:07:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Brandon Allen <plugins@brandonallen.me>\n"
 "Language-Team: ENGLISH <plugins@brandonallen.me>\n"
 "Language: en\n"
@@ -22,17 +22,17 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: grunt-wp-i18n1.0.0\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
 
-#: bp-emails-for-bbp.php:80
+#: bp-emails-for-bbp.php:82
 msgid "You must be using bbPress 2.5 or greater."
 msgstr ""
 
-#: bp-emails-for-bbp.php:85
+#: bp-emails-for-bbp.php:87
 msgid "You must be using BuddyPress 2.5 or greater."
 msgstr ""
 
-#: bp-emails-for-bbp.php:112
+#: bp-emails-for-bbp.php:114
 msgid ""
 "Yikes! Looks like some things aren't right. You should deactivate BP Emails "
 "for BBP, or fix the following issues."

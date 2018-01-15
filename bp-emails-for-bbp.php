@@ -7,9 +7,9 @@
  * Author URI:      https://github.com/thebrandonallen
  * Text Domain:     bp-emails-for-bbp
  * Domain Path:     /languages
- * Version:         0.2.2
+ * Version:         0.2.3
  *
- * Copyright (C) 2016-2017  Brandon Allen (https://github.com/thebrandonallen)
+ * Copyright (C) 2016-2018  Brandon Allen (https://github.com/thebrandonallen)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

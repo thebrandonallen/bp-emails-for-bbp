@@ -5,7 +5,7 @@ Tags: bbpress, buddypress, email
 Requires at least: 4.2.0
 Tested up to: 4.9.1
 Requires PHP: 5.2.4
-Stable tag: 0.2.2
+Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -43,7 +43,7 @@ Settings? We don't need no stinking settings.
 == Changelog ==
 
 = 0.2.3 =
-* Release date: TBD
+* Release date: 2018-01-15
 * Update compatibility to 4.9.1
 
 = 0.2.2 =
