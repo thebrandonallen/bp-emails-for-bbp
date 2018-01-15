@@ -43,7 +43,7 @@ Settings? We don't need no stinking settings.
 ## Changelog ##
 
 ### 0.2.2 ###
-* Release date: TBD
+* Release date: 2017-06-15
 * Update compatibility to WordPress 4.8
 
 ### 0.2.1 ###
